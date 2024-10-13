@@ -72,10 +72,10 @@ FROM employee_salary;
 #One thing I wanted to show you about the select statement in this lesson is the DISTINCT Statement - this will return only unique values in
 #The output - and you won't have any duplicates
 
-SELECT department_id
+SELECT dept_id
 FROM employee_salary;
 
-SELECT DISTINCT department_id
+SELECT DISTINCT dept_id
 FROM employee_salary;
 
 #Now a lot happens in the select statement. We have an entire module dedicated to just the 
